@@ -1,0 +1,184 @@
+[class*="col-"] {
+   background-color: #eee;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+   font-size: 2rem;
+}
+
+
+.logo img {
+	width: 100%;
+}
+
+header .col-xs-12{
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: 1px solid white;
+	background: radial-gradient(farthest-corner at 30px 20px, #3d2020, #992121);
+}
+
+
+
+.form-inline .checkbox{
+	font-size: 14px;
+	margin-top: 10px;
+	color: #c0bbbb;
+}
+
+.form-inline button{
+	margin-top: 10px;
+}
+
+form-inline {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.col-xs-12 div.logo,
+.col-xs-12 div.log_form {
+	margin-bottom: 0;
+	background-color: transparent;
+}
+
+
+nav .col-xs-12{
+	margin-bottom: 0;
+	border-bottom: 1px solid white;
+	background-color: white;
+}
+.nav-pills li.active a {
+
+	background-color: #a43737;
+}
+
+.nav-pills li.active a:hover {
+	background-color: rgba(164, 55, 55,0.9);
+}
+
+
+.nav-pills li a{
+	color: #a43737;
+}
+
+.nav-pills li a:hover{
+	background-color: rgba(129, 0, 8, 0.16);
+}
+
+section div.col-xs-12{
+	margin-bottom: 0;
+	background-color: transparent;
+}
+
+section div.col-sm-2.col-md-2 {
+	background-color: transparent;
+}
+
+section div.row {
+	position: relative;
+}
+
+section div.advertis {
+	position: fixed;
+	text-align: center;
+	padding-left: 0;
+	max-width: 205px;
+}
+section .advertis img {
+	width: 100%;
+}
+section .advertis p {
+	margin-top: 10px;
+	font-size: 10px;
+	z-index: 100;
+	width: 100%;
+}
+
+
+section div.main {
+	font-size: 14px;
+	text-align: justify;
+	padding-left: 20px;
+}
+
+
+
+section div.main h2 {
+	text-align: center;
+	margin-top: 0;
+}
+
+
+
+div.pull-right{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 15em;
+	padding: 10px;
+	font-size: 12px;
+	margin: 10px;
+	background-color: #c42026;
+	color: white;
+}
+
+div.pull-right h2 {
+	font-size: 14px
+}
+
+section table.table-bordered {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+section table.table-bordered th {
+	text-align: center;
+}
+
+div.pull-right img{
+	float: left;
+	width: 70%;
+	font: 12px;
+}
+
+.pagination li a {
+	color:  #a43737;
+}
+
+.pagination li a:hover{
+	color: rgba(164, 55, 55,0.9);
+	background-color: (164, 55, 55,0.1);
+}
+
+
+
+.menu .list-group li {
+	font-size: 12px;
+}
+.menu .list-group li a{
+	 color: #c42026;
+}
+
+.menu .badge {
+	background-color: #c42026;
+}
+
+footer div.col-xs-12{
+	background: radial-gradient(farthest-corner at 30px 20px, #3d2020, #992121);
+	margin-bottom: 0;
+}
+
+footer .navbar-text {
+	margin:0;
+	font-size: 12px;
+	color: white;
+}
+footer .navbar-text a {
+	color: #c42026;
+	font-weight: 700;
+}
